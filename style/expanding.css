@@ -12,4 +12,5 @@ body {
 .container {
     display: flex;
     width: 90vw;
+    background: red;
 }

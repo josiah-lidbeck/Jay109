@@ -12,11 +12,14 @@ body {
 .container {
     display: flex;
     width: 90vw;
-    background: red;
+
 }
 .panel {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
+    /* border-radius rounds corners */
+    border-radius: 50px;
+    color: white;
 }

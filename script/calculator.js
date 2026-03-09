@@ -15,9 +15,9 @@ equalBox = document.querySelector('.equalSign')
 answerBox = document.querySelector('.answerBox')
 
 
-firstNumber = ""
-secondNumber = ""
-operation = ""
+firstNumber = null
+secondNumber = null
+operation = null
 
 
 oneBox.addEventListener('click', () => {

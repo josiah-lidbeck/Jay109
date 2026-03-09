@@ -121,10 +121,12 @@ if (firstNumber == null) {
 })
 addBox.addEventListener('click', () => {
 operation = "add"
+ answerBox.innerText = '+'
 })
 
 multiplyBox.addEventListener('click', () => {
 operation = "multiply"
+answerBox.innerText = 'x'
 })
 equalBox.addEventListener('click', () => {
 

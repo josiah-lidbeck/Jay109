@@ -15,7 +15,8 @@ numberBoxes.forEach((box) => {
 
 box.addEventListener('click', () => {
 
-value = box.innerText
+value = box.innerText;
+
 
 if (firstNumber == null) {
     firstNumber = Number(value)

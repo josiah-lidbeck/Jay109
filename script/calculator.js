@@ -1,9 +1,20 @@
-const numbers = document.querySelectorAll(".number");
-const addButton = document.querySelector(".add");
-const multiplyButton = document.querySelector(".multiply");
-const equalButton = document.querySelector(".equalSign");
-const answerBox = document.querySelector(".answerBox");
+oneBox = document.querySelector('.one')
+twoBox = document.querySelector('.two')
+threeBox = document.querySelector('.three')
+fourBox = document.querySelector('.four')
+fiveBox = document.querySelector('.five')
+sixBox = document.querySelector('.six')
+sevenBox = document.querySelector('.seven')
+eightBox = document.querySelector('.eight')
+nineBox = document.querySelector('.nine')
 
-let firstNumber = "";
-let secondNumber = "";
-let operation = "";
+addBox = document.querySelector('.add')
+multiplyBox = document.querySelector('.multiply')
+equalBox = document.querySelector('.equalSign')
+
+answerBox = document.querySelector('.answerBox')
+
+
+firstNumber = ""
+secondNumber = ""
+operation = ""

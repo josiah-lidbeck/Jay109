@@ -1,4 +1,4 @@
-termOne = document.querySelector('.click')
+termOne = document.querySelector('.number')
 termOne.addEventListener('click', () => {
 
 

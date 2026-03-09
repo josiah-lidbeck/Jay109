@@ -136,4 +136,7 @@ if (operation == "multiply") {
     answerBox.innerText = firstNumber * secondNumber
 }
 
+firstNumber = null;
+secondNumber = null;
+operation = null;
 })

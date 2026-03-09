@@ -1,0 +1,1 @@
+termOne = document.querySelector('.click')

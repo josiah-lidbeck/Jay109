@@ -30,7 +30,6 @@ if (firstNumber == null) {
 
 })
 
-
 addBox.addEventListener('click', () => {
 operation = "add"
 answerBox.innerText = "+"

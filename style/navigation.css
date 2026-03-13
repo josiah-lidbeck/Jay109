@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
+    font-family: 'Tangerine';
 background: #333333;
 color: #222222;
-margin: 0;
 overflow-x: hidden;
 }
 .container {

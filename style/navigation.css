@@ -9,4 +9,7 @@ margin: 0;
 }
 .container {
     background: #fafafa;
+width: 100vh;
+min-height: 100vh;
+padding: 
 }

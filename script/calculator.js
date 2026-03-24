@@ -13,46 +13,44 @@ operation = null
 
 numberBoxes.forEach((box) => {
 
-box.addEventListener('click', () => {
+    box.addEventListener('click', () => {
+        value = box.innerText;
 
-value = box.innerText;
+        if (firstNumber == null) {
+            firstNumber = Number(value)
+            answerBox.innerText = firstNumber
+        } else {
+            secondNumber = Number(value)
+            answerBox.innerText = secondNumber
+        }
 
-
-if (firstNumber == null) {
-    firstNumber = Number(value)
-    answerBox.innerText = firstNumber
-} else {
-    secondNumber = Number(value)
-    answerBox.innerText = secondNumber
-}
-
-})
+    })
 
 })
 
 addBox.addEventListener('click', () => {
-operation = "add"
-answerBox.innerText = "+"
+    operation = "add"
+    answerBox.innerText = "+"
 })
 
 multiplyBox.addEventListener('click', () => {
-operation = "multiply"
-answerBox.innerText = "x"
+    operation = "multiply"
+    answerBox.innerText = "x"
 })
 
 equalBox.addEventListener('click', () => {
 
-if (operation == "add") {
-    answerBox.innerText = firstNumber + secondNumber
+    if (operation == "add") {
+        answerBox.innerText = firstNumber + secondNumber
 
-}
+    }
 
-if (operation == "multiply") {
-    answerBox.innerText = firstNumber * secondNumber
-}
+    if (operation == "multiply") {
+        answerBox.innerText = firstNumber * secondNumber
+    }
 
-firstNumber = null
-secondNumber = null
-operation = null
+    firstNumber = null
+    secondNumber = null
+    operation = null
 
 })

@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: skyblue;
+}
+.loading {
+    height: 60px;
+    width: 60px;
+    background: lightyellow;
+    margin: 4px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    height: 60px;
+    width: 60px;
+    background: lightyellow;
+    margin: 4px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

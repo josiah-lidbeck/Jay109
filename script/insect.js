@@ -4,7 +4,8 @@ start_btn = document.getElementById('start-btn')
 game_container = document.querySelector('.game-container')
 scoreEl = document.getElementById('score')
 timeEl = document.getElementById('time')
-score=0
+messageEl = document.getElementById('message')
+score= 0;
 seconds = 0;
 
 start_btn.addEventListener('click', () => {

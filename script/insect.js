@@ -34,7 +34,7 @@ function createInsect() {
     const {x, y} = getRandomLocation()
     insect.style.top = `${y}px`
     insect.style.left = `${x}px`
-    insect.innerHTML = `<img src="${src}" alt="${alt}" style="transform: rotate(${Math.random()*360}deg)">`
+    insect.innerHTML = `<img src="${src}" alt="${alt}" >`
     game_container.appendChild(insect);
     insect.addEventListener('click', () => {
         catchInsect(insect);

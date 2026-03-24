@@ -111,7 +111,18 @@ color: rgb(241,107,114);
     transform: scale(1);
 }
 .insect {
-    width: 40px;
-    height: 40px;
+    width: 100px;
+    height: 100px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.insect.caught {
+    transform: scale(0);
+}
+.insect img {
+    width: 100px
+    height: 100px; 
 }

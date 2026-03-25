@@ -1,31 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+English:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     box-sizing: border-box;
 }
-body {
-    font-family: "Playpen Sans English", cursive;
-    background: rgb(20,182,255);
+
+body{
+    font-family: "Jost", sans-serif;
+    background: rgb(100,200,255);
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;
-
 }
-
-.btn {
-    font-family: "Playpen Sans English", cursive;
-    background: lightcoral;
+.home {
+    position: absolute;
+    top: 10px;
+}
+.btn{
+    font-family: "Jost", sans-serif;
+    background: CornflowerBlue;
     color: white;
     margin: 1rem;
     padding: 1.5rem 3rem;
     font-size: 1.2rem;
     cursor: pointer;
-    border-radius: 21px;
-
+    border-radius: 5px;
 }
+
 .btn:hover {
-    opacity: .9
-
+    opacity: 0.9;
 }
-

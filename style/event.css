@@ -8,7 +8,12 @@ body{
     justify-content: center;
     margin: 0;
 }
+.home {
 
+
+    position: absolute;
+    top: 10px;
+}
 
 
 .rectangle {
@@ -22,7 +27,10 @@ body{
     align-items: center;
 }
 
-
+a {
+    color: black;
+    text-decoration: none;
+}
 .click {
     position: absolute;
     top: 20px;

@@ -17,7 +17,15 @@ body {
     font-size: 50px;
     opacity: 1;
 }
-
+.home {
+    position: absolute;
+top: 10px;
+left: 10px;
+margin: 10px;
+padding: 10px;
+border-radius: 50px;
+background: white;
+}
 
 .bg{
     width: 100vw;
@@ -29,4 +37,8 @@ body {
     background-position: center;
     z-index: -1;
     filter: blur(100px);
+}
+a {
+    text-decoration: none;
+    color: black;
 }

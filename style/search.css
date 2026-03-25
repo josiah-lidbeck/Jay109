@@ -51,3 +51,16 @@ body {
     transform: translateX(198px)
 }
 
+.home {
+    position: absolute;
+top: 10px;
+left: 10px;
+margin: 10px;
+padding: 10px;
+border-radius: 50px;
+background: lightgray;
+}
+a {
+    text-decoration: none;
+    color: black;
+}

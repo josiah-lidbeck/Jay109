@@ -14,6 +14,20 @@ body {
     width: 90vw;
 
 }
+.home {
+    position: absolute;
+top: 10px;
+left: 10px;
+margin: 10px;
+padding: 10px;
+border-radius: 50px;
+background: lightgray;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .panel {
     background-size: cover;
     background-position: center;

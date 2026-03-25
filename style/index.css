@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 *{
     box-sizing: border-box;
 }
 body{
+    font-family: "Chewy";
     display: flex;
     height: 100vh;
     align-items: center;
@@ -9,24 +14,35 @@ body{
     margin: 0;
     background-color: skyblue;
 }
-.loading {
-    height: 60px;
-    width: 60px;
+.changeStyle{
+    position: absolute;
+    left: 1vh;
+    top: 1vh;
+    background: lightyellow;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 3px;
+    cursor: pointer;
+}
+.homepageText{
+   position: absolute;
+   top: 5vh;
+    font-size: 45px;
+}
+.page {
+    height: 80px;
+    width: 80px;
     background: lightyellow;
     margin: 4px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
+  cursor: pointer;
     align-items: center;
 }
 
-.search {
-    height: 60px;
-    width: 60px;
-    background: lightyellow;
-    margin: 4px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+a {
+    text-decoration: none;
+    color: black;
+
 }

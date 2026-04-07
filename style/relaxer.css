@@ -9,7 +9,7 @@ body {
     background: #224941;
     color: white;
     font-family: "Poiret One", sans-serif;
-    min-heigh: 100vh;
+    min-height: 100vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -24,4 +24,5 @@ body {
     height: 300px;
     width: 300px;
     position: relative;
+    transform: scale(1);
 }

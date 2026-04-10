@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+body{
+display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: red;
+    overflow: hidden;
+    height: 100vh;
+}
+.long.ssix {
+    position: absolute;
+bottom: 7.69vh;
+left: 0px;
+    height: 7.69vh;
+    width: 100%;
+    background: white;
+    z-index: 1;
+}
+.long.ffive {
+    position: absolute;
+bottom: 23.07vh;
+left: 0px;
+    height: 7.69vh;
+    width: 100%;
+    background: white;
+    z-index: 1;
+}
+.long.ffour {
+    position: absolute;
+bottom: 38.45vh;
+left: 0px;
+    height: 7.69vh;
+    width: 100%;
+    background: white;
+    z-index: 1;
+}
+.blue_square {
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    height: 53.84vh;
+    width: 40vw;
+    background: #1D45B5;
+}
+.short.oone {
+    position: absolute;
+    top: 7.69vh;
+    left: 40vw;
+    height: 7.69vh;
+    width: 60vw;
+    background: white;
+}
+.short.ttwo {
+    position: absolute;
+    top: 23.07vh;
+    left: 40vw;
+    height: 7.69vh;
+    width: 60vw;
+    background: white;
+}
+.short.tthree {
+    position: absolute;
+    top: 38.45vh;
+    left: 40vw;
+    height: 7.69vh;
+    width: 60vw;
+    background: white;
+}
+.star {
+    position: absolute;
+    background: white;
+    height: 6.16vh;
+     width: 6.16vh;
+     margin: 5.4vh 0;
+     border-radius: 50%;
+     z-index: 2000;
+}
+.row{
+    top: .1vh;
+}
+.rrow{
+    top: 6vh;
+}
+.rrrow{
+    top: 12vh;
+}
+.column{
+    left: 2.5vw;
+}
+.ccolumn{
+    left: 9vw;
+}
+.cccolumn{
+    left: 15.5vw;
+}
+.ccccolumn{
+    left: 22vw;
+}
+.cccccolumn{
+    left: 28.5vw;
+}
+.ccccccolumn{
+    left: 35vw;
+}
+
+
+.seven {
+    top: 6vh;
+    left: 5.75vw;
+}
+.eight {
+    top: 6vh;
+    left: 12.25vw;
+}
+.nine {
+    top: 6vh;
+    left: 18.75vw;
+}
+.ten {
+    top: 6vh;
+    left: 25.25vw;
+}
+.eleven {
+    top: 6vh;
+    left: 31.75vw;
+}
+.twelve {
+    top: 12vh;
+    left: 2.5vw;
+}
+.thirteen {
+    top: 12vh;
+    left: 9vw;
+}
+.fourteen {
+    top: 12vh;
+    left: 15.5vw;
+}
+.fifteen {
+    top: 12vh;
+    left: 22vw;
+}
+.sixteen {
+    top: 12vh;
+    left: 28.5vw;
+}
+.seventeen {
+    top: 12vh;
+    left: 35vw;
+}

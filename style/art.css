@@ -71,82 +71,67 @@ left: 0px;
 .star {
     position: absolute;
     background: white;
-    height: 6.16vh;
-     width: 6.16vh;
+    height: 5vh;
+     width: 5vh;
      margin: 5.4vh 0;
      border-radius: 50%;
      z-index: 2000;
 }
-.row{
+.r{
     top: .1vh;
 }
-.rrow{
-    top: 6vh;
+.rr{
+    top: 5.5vh;
 }
-.rrrow{
-    top: 12vh;
+.rrr{
+    top: 11vh;
 }
-.column{
+.rrrr{
+    top: 16.5vh;
+}
+.rrrrr{
+    top: 22vh;
+}
+.rrrrrr{
+    top: 27.5vh;
+}
+.rrrrrrr {
+    top: 33vh;
+}
+.rrrrrrrr {
+    top: 38.5vh;
+}
+.c{
     left: 2.5vw;
 }
-.ccolumn{
+.cc{
     left: 9vw;
 }
-.cccolumn{
+.ccc{
     left: 15.5vw;
 }
-.ccccolumn{
+.cccc{
     left: 22vw;
 }
-.cccccolumn{
+.ccccc{
     left: 28.5vw;
 }
-.ccccccolumn{
+.cccccc{
     left: 35vw;
 }
-
-
-.seven {
-    top: 6vh;
+.m {
     left: 5.75vw;
 }
-.eight {
-    top: 6vh;
+.mm{
     left: 12.25vw;
 }
-.nine {
-    top: 6vh;
+.mmm{
     left: 18.75vw;
 }
-.ten {
-    top: 6vh;
+.mmmm{
     left: 25.25vw;
 }
-.eleven {
-    top: 6vh;
-    left: 31.75vw;
-}
-.twelve {
-    top: 12vh;
-    left: 2.5vw;
-}
-.thirteen {
-    top: 12vh;
-    left: 9vw;
-}
-.fourteen {
-    top: 12vh;
-    left: 15.5vw;
-}
-.fifteen {
-    top: 12vh;
-    left: 22vw;
-}
-.sixteen {
-    top: 12vh;
-    left: 28.5vw;
-}
-.seventeen {
-    top: 12vh;
-    left: 35vw;
+
+.mmmmm{
+    left: 31.75vw
 }

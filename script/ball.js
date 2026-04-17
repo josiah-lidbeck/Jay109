@@ -65,23 +65,21 @@ function createLPaddle() {
     LPaddle.style.left = "50px"
     LPaddle.style.top = `${LPaddleYPosition}px`
 }
-
+wKey = false
+sKey = false
 document.addEventListener('keydown', (event) =>{
 if (event.key == 'w') {
     if (LPaddleYPosition <= 0) {
-        LPaddleYPosition = 0
+        wKey = true
     }
-    else {
-    LPaddleYPosition = LPaddleYPosition -LPaddleSpeed
-    }
+
 }
+
 if (event.key == 's'){
-if (LPaddleYPosition >= windowHeight - LPaddleHeight) {
-        LPaddleYPosition = windowHeight - LPaddleHeight
+
+       sKey = true
     }
-    else {
-    LPaddleYPosition = LPaddleYPosition + LPaddleSpeed
-    }
+
 }
 LPaddle.style.top = `${LPaddleYPosition}px`
 })
@@ -91,3 +89,13 @@ function animate () {
     requestAnimationFrame(animate)
 }
 animate()
+function movePaddle() {
+    if (wKey == true && LPaddleYPosition > 0){
+        LPaddleYPosition = LPaddleYPosition - LPaddleSpeed
+    }
+    if (sKey == true && LPaddleYPosition < windowHeight - LPaddleHeight)
+    {
+        LPaddleYPosition = LPaddleYPosition + LPaddleSpeed
+    }
+    LPaddle.style.top = `${LPaddleYPosition}px`
+}
